@@ -38,7 +38,7 @@ public class UploadPauseDemo {
 			URL url = new URL(DOWN_PATH);
 			HttpURLConnection openConnection = (HttpURLConnection) url.openConnection();
 			openConnection.setRequestMethod("GET");
-			openConnection.setConnectTimeout(10 * 1000);
+			openConnection.setConnectTimeout(5 * 1000);
 
 			if (openConnection.getResponseCode() == 200) {
 				// 得到文件的长度
@@ -110,7 +110,7 @@ public class UploadPauseDemo {
 
 				HttpURLConnection openConnection = (HttpURLConnection) url.openConnection();
 				openConnection.setRequestMethod("GET");
-				openConnection.setConnectTimeout(10 * 1000);
+				openConnection.setConnectTimeout(5 * 1000);
 
 				System.out.println("理论上下载：   线程： " + threadId + ",开始位置： " + startIndex + ",结束位置：" + endIndex);
 

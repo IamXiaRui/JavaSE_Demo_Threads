@@ -9,7 +9,7 @@ import java.net.URL;
 
 /**
  * @ClassName: UploadForNetDemo
- * @Description: 多线程断点下载文件
+ * @Description: 多线程下载文件
  * @author iamxiarui@foxmail.com
  * @date 2016年4月6日 下午10:27:47
  * 

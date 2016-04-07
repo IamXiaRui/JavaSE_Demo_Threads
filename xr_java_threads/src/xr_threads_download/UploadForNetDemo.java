@@ -17,7 +17,7 @@ import java.net.URL;
 public class UploadForNetDemo {
 
 	// 文件下载路径
-	private static String DOWN_PATH = "http://172.25.10.172:8080/Web_UploadDemo/testApp.exe";
+	private static String DOWN_PATH = "http://172.25.10.172:8080/Web_UploadExeDemo/testApp.exe";
 
 	// 线程的数量
 	private static int THREAD_COUNT = 3;
